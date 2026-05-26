@@ -12,12 +12,21 @@
 // console.log("02">1); // true (string "02" is converted to number 2, then compared with 1)
 
 
-console.log(null>0); // false (null is converted to 0, then compared with 0)
-console.log(null==0); // false (null is only equal to undefined, not to any other value)
-console.log(null>=0); // true (null is converted to 0, then compared with 0)
 
-console.log(undefined>0); // false (undefined is converted to NaN, then compared with 0)
-console.log(undefined==null); // true (undefined is only equal to null, not to any other value)
-console.log(undefined>=0); // false (undefined is converted to NaN, then compared with 0)
+
+// **avoid this kind of comparison, as it can lead to unexpected results due to type coercion**
+// console.log(null>0); // false (null is converted to 0, then compared with 0)
+// console.log(null==0); // false (null is only equal to undefined, not to any other value)
+// console.log(null>=0); // true (null is converted to 0, then compared with 0)
+
+// console.log(undefined>0); // false (undefined is converted to NaN, then compared with 0)
+// console.log(undefined==null); // true (undefined is only equal to null, not to any other value)
+// console.log(undefined>=0); // false (undefined is converted to NaN, then compared with 0)
+
+
+// ===> strict equality operator (no type coercion)
+// == > loose equality operator (type coercion allowed)
+
+
 
 
