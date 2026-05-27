@@ -32,4 +32,4 @@ let newDate = new Date()
 
 
 
-newDate.toLocaleString('default', { month: 'long' }); 
+newDate.toLocaleString('default', { month: 'long' });  
