@@ -45,24 +45,36 @@ if (2==="2") {
 // console.log(`User has ${power}`);   
 
 
-const balance = 1000;
+// const balance = 1000;
 // if (balance > 500) console.log("User has a high balance");console.log("End of the code"); //avoid this
 //     {
 //     const discount = 0.1;
 //     console.log(`User gets a discount of ${discount * 100}%`);
 // }
 
-if (balance > 500) {
-    console.log("less than 500");
-}else if (balance > 200) {
-    console.log("less than 200");
-}else if (balance > 100) {
-    console.log("less than 100");
-}else {
-    console.log("Balance is low");
+// if (balance < 500) {
+//     console.log("Balance is less than 500");
+// }else if (balance < 750) {
+//     console.log("Balance is less than 750");
+// }else if (balance < 1200) {
+//     console.log("Balance is less than 1200");
+// }else {
+//     console.log("Balance is low");
+// }
+
+
+const userLoggedIn = true;
+const debitCard = true;
+const loggedInFromGoogle = false;
+const LoggedInFromEmail = true;
+
+if (userLoggedIn && debitCard) {
+    console.log("User can make a purchase");
 }
 
-
+if (LoggedInFromEmail || loggedInFromGoogle ) {
+    console.log("User is logged in");
+}
 
 
 
