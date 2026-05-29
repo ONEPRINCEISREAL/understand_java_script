@@ -52,6 +52,15 @@ const balance = 1000;
 //     console.log(`User gets a discount of ${discount * 100}%`);
 // }
 
+if (balance > 500) {
+    console.log("less than 500");
+}else if (balance > 200) {
+    console.log("less than 200");
+}else if (balance > 100) {
+    console.log("less than 100");
+}else {
+    console.log("Balance is low");
+}
 
 
 
