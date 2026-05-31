@@ -45,16 +45,18 @@ const myObject = {
 
 };
 
-for (const key in myObject) {
-    // console.log(`${key} : ${myObject[key]}`);
-}
+// for (const key in myObject) {
+//     // console.log(`${key} : ${myObject[key]}`);
+// }
 
 
-const programming = ["JavaScript", "Python", "Java", "C++", "Ruby", "Go"];
+// const programming = ["JavaScript", "Python", "Java", "C++", "Ruby", "Go"];
 
-for (const index in programming) {
-    console.log(`Index: ${index} - Value: ${programming[index]}`);
-}
+// for (const index in programming) {
+//     console.log(`Index: ${index} - Value: ${programming[index]}`);
+// }
+
+
 
 
 
