@@ -18,6 +18,15 @@
     console.log(div);
     div.className = "main";
     div.id =Math.round (Math.random() * 10 + 1);
+    div.setAttribute("title", "generated title");
+    div.style.backgroundColor = "red";
+    div.style.padding = "20px";
+    // div.innerText = "This is a div created by JavaScript";
+    
+    const addText = document.createTextNode("This is a text node created by JavaScript");
+    div.appendChild(addText);
+
+    document.body.appendChild(div);
 
 </script>
 </html>
