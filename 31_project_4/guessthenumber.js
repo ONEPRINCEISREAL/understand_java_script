@@ -68,17 +68,17 @@ function checkGuess(guess) {
 
     if (guess === randomNumber) {
 
-        displayMessage(`🎉 You guessed it right`);
+        displayMessage(` You guessed it right`);
 
         endGame();
 
     } else if (guess < randomNumber) {
 
-        displayMessage(`📉 Number is TOO LOW`);
+        displayMessage(` Number is TOO LOW`);
 
     } else {
 
-        displayMessage(`📈 Number is TOO HIGH`);
+        displayMessage(` Number is TOO HIGH`);
 
     }
 }
