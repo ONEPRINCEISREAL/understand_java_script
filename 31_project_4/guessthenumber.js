@@ -117,7 +117,6 @@ function newGame() {
         previousGuesses = [];
 
         numGuesses = 1;
-
         guessSlot.innerHTML = '';
 
         remaining.innerHTML = `${11 - numGuesses} guesses left`;
